@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://www.unsa.edu.pe/wp-content/uploads/2017/10/plantilla-comunicados-2.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .form-box {
+    background: rgba(105, 34, 34, 0.877);
+    height: 420px;
+    width: 720px;
+    padding: 30px;
+    margin:auto;
+    margin-top: 120px;
+    border-radius: 10px;
+    color: rgb(195, 190, 190);
+    box-shadow: 7px 1px 38px  rgba(105, 34, 34, 0.877);
+  }
+  
+  .input-text {
+    border-radius: 10px;
+    background: #e7e6e6;
+    height: 200px;
+    width: 712px;
+    border: rgb(121, 20, 20) solid 2px;
+  }
+  
+  .titulo{
+    border: rgb(121, 20, 20) solid 2px;
+    border-radius: 10px;
+    background: #e7e6e6;
+    height: 20px;
+    width: 712px;
+  }
+  
+  .boton{
+    display: block;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 9px;
+    background: #541919;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid #541919;
+  }
+  
+  div > a, .paginas > a{
+    color: rgb(226, 201, 12);
+    text-decoration: none;
+  }
