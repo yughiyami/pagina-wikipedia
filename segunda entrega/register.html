@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Registration</title>
+    </head>
+    <body>
+        <form action="./cgi-bin/register.pl" method="POST">
+            <label for="firstName">Nombre: </label>
+            <input type="text" name="firstName" required><br/>
+            <label for="lastName">Apellidos: </label>
+            <input type="text" name="lastName" required><br/>
+            <label for="userName">Nombre de Usuario: </label>
+            <input type="text" name="userName" required><br/>
+            <label for="password">Contraseña: </label>
+            <input type="password" name="password" required><br/>
+            <input type="submit" value="Registrar"/>
+        </form>
+
+        <h3><a href="./index.html">Volver al inicio</a></h3>
+    </body>
+</html>
